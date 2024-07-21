@@ -11,19 +11,45 @@
 <body>
     <header>
 
-        <div class="logo"><img src="" alt="Logo"></div>
+        <div><img class="logo" src="logo.jpg" alt="Logo"></div>
 
         <nav class="navigation">
             <ul>
                 <li><a href="#"> Home </a></li>
-                <li><a href="#"> Offers </a></li>
+                <li><select name="Offers" id="offer">
+                        <option value="Mercury"> Mercury </option>
+                        <option value="Venus"> Venus</option>
+                        <option value="Earth"> Earth </option>
+                        <option value="Mars">Mars</option>
+                        <option value="Jupiter">Jupiter</option>
+                        <option value="Saturn">Saturn</option>
+                        <option value="Uranus">Uranus</option>
+                        <option value="Neptune">Neptune</option>
+                    </select></li>
                 <li><a href="#"> Contact us </a></li>
                 <li><a href="#"> About </a></li>
-                <li><a href="#"> Sign up </a></li>
+                <li><a id="signup" href="#"> Sign up </a></li>
             </ul>
         </nav>
 
     </header>
+
+    <main>
+        <div class="planets" id="pMercury">
+            <div class="left">
+                <h2>Mercury</h2>
+            </div>
+            <div class="mid">
+                <p>Mercury is the closest planet to the sun and also the smallest planet in the solar system. The small
+                    and cratered planet does not have any moons and zips around the sun faster than any other planet in
+                    the solar system, hence why the Romans named it after their swift-footed messenger god.</p>
+            </div>
+            <div class="right"><img src="Planets/Mercury.jpeg" alt=""></div>
+
+        </div>
+        <button>Buy Now !!</button>
+
+    </main>
 
     <footer></footer>
 </body>
